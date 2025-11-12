@@ -1,0 +1,36 @@
+# Ignorar archivos del sistema y temporales
+.DS_Store
+.vscode/
+*.log
+*.tmp
+node_modules/
+.env
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignorar archivos de Jupyter
+.ipynb_checkpoints
+
+# Archivos de respaldo
+*.bak
+*~
